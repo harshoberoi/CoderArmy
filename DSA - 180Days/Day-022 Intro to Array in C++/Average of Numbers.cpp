@@ -17,7 +17,7 @@ int main()
 size=sizeof(arr)/sizeof(arr[0]);
 
     cout<<ans/size;
-
+return 0;
 }
 
 
