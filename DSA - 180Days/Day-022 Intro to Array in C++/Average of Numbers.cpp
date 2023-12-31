@@ -1,6 +1,6 @@
 //Calculate the average of elements in an array of size 18.
 
-//AVERAGE 
+//AVERAGE
 #include<bits/stdc++.h>
 using namespace std;
 int main()
