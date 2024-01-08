@@ -1,5 +1,5 @@
 
-//2nd smallest element
+//3rd smallest element
 #include<bits/stdc++.h>
 using namespace std;
 int main()
