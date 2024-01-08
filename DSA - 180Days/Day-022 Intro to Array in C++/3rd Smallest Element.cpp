@@ -7,7 +7,7 @@ int main()
     int n, first= INT_MAX;
     cout<<"enter the size of array ";
     cin>>n;
-
+   
     int arr[100];
     for(int i=0;i<n;i++)
     cin>>arr[i];
