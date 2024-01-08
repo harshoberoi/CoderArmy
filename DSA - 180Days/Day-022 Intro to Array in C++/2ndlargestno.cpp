@@ -3,7 +3,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main()
-{    
+{      
     int n, ans= INT_MIN;
     cout<<"enter the size of array ";
     cin>>n;
