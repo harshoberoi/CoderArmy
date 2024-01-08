@@ -1,13 +1,30 @@
+
+//2nd largest element
 #include<bits/stdc++.h>
 using namespace std;
 int main()
-{
-    int i;
-    char name[26];
-    for(i=100;i<126;i++)
+{    
+    int n, ans= INT_MIN;
+    cout<<"enter the size of array ";
+    cin>>n;
+
+    int arr[100];
+    for(int i=0;i<n;i++)
+    cin>>arr[i];
+
+    //first largest element
+    for(int i=0;i<n;i++)
     {
-        name[i-100]=i-3;
-        cout<<name[i-100]<<" ";
+        if(arr[i]>ans)
+        ans=arr[i];
     }
+    //find 2nd largest element
+    int second=INT_MIN;
+    for(int i=0;i<n;i++)
+    {
+        if(ans!=arr[i])
+        second=max(second,arr[i]);
+    }
+    cout<<second;
     return 0;
 }
